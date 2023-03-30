@@ -17,6 +17,8 @@
 		6D8526B529D50D2B0015F9AC /* ImageView_03Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8526B429D50D2B0015F9AC /* ImageView_03Tests.swift */; };
 		6D8526BF29D50D2B0015F9AC /* ImageView_03UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8526BE29D50D2B0015F9AC /* ImageView_03UITests.swift */; };
 		6D8526C129D50D2B0015F9AC /* ImageView_03UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8526C029D50D2B0015F9AC /* ImageView_03UITestsLaunchTests.swift */; };
+		6D8526CF29D50E400015F9AC /* lamp_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8526CD29D50E400015F9AC /* lamp_off.png */; };
+		6D8526D029D50E400015F9AC /* lamp_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8526CE29D50E400015F9AC /* lamp_on.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		6D8526BA29D50D2B0015F9AC /* ImageView_03UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageView_03UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D8526BE29D50D2B0015F9AC /* ImageView_03UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView_03UITests.swift; sourceTree = "<group>"; };
 		6D8526C029D50D2B0015F9AC /* ImageView_03UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView_03UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6D8526CD29D50E400015F9AC /* lamp_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_off.png; sourceTree = "<group>"; };
+		6D8526CE29D50E400015F9AC /* lamp_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_on.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 		6D85269929D50D290015F9AC /* ImageView_03 */ = {
 			isa = PBXGroup;
 			children = (
+				6D8526CD29D50E400015F9AC /* lamp_off.png */,
+				6D8526CE29D50E400015F9AC /* lamp_on.png */,
 				6D85269A29D50D290015F9AC /* AppDelegate.swift */,
 				6D85269C29D50D290015F9AC /* SceneDelegate.swift */,
 				6D85269E29D50D290015F9AC /* ViewController.swift */,
@@ -236,7 +242,9 @@
 			files = (
 				6D8526AA29D50D2A0015F9AC /* LaunchScreen.storyboard in Resources */,
 				6D8526A729D50D2A0015F9AC /* Assets.xcassets in Resources */,
+				6D8526D029D50E400015F9AC /* lamp_on.png in Resources */,
 				6D8526A229D50D290015F9AC /* Main.storyboard in Resources */,
+				6D8526CF29D50E400015F9AC /* lamp_off.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
